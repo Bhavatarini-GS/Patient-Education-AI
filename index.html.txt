@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Patient Education AI</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+<h2>🩺 Patient Education AI</h2>
+
+<label>Disease</label>
+<select id="disease">
+  <option value="diabetes">Diabetes</option>
+  <option value="fever">Fever</option>
+  <option value="hypertension">Hypertension</option>
+</select>
+
+<label>Literacy Level</label>
+<select id="level">
+  <option value="low">Low</option>
+  <option value="high">High</option>
+</select>
+
+<label>Culture</label>
+<select id="culture">
+  <option value="indian">Indian</option>
+  <option value="general">General</option>
+</select>
+
+<label>Learning</label>
+<select id="learn">
+  <option value="simple">Simple</option>
+  <option value="detailed">Detailed</option>
+</select>
+
+<button id="generateBtn">Generate</button>
+
+<div class="output" id="output"></div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
